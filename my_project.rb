@@ -22,3 +22,6 @@ if amount_to_kill.to_i >= 50
   
   
   "One #{time_of_day}, this marks your day.  This plan is designed to enable you to successfully complete the murder within the next urgency_amount. emerge from your home_apartment, wearing a clothes_
+
+
+#hello this is some more code! 
