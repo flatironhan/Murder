@@ -4,7 +4,7 @@ puts "How many people to you plan to kill?"
 amount_to_kill = gets.chomp
 time_of_day = "we don't know yet"
 if amount_to_kill.to_i >= 50
-  time_of_day = "bright, sunny afternoon, when crowds bustle through the streets and birds chirp happily in the air"
+  time_of_day = "bright, sunny afternoon, when crowds bustle through the streets and birds chirp happily in the air, unaware of the smell of crime drifting about"
   elsif amount_to_kill.to_i >=20
    time_of_day = "rainy weekend afternoon, when there is nothing much to do and people flock to the shopping malls and stores"
   elsif amount_to_kill.to_i >=6
@@ -15,21 +15,21 @@ if amount_to_kill.to_i >= 50
   elsif amount_to_kill.to_i ==1
          time_of_day = "one shadowy dawn when the sun and moon alike stare down as the only witnesses to your vicious attack.  As the crisp morning air settles and fresh dew adorning plants glistens, those around you slumber peacefully, unawares. The slight fog will mask your murder from the as you disappear into the new day."
      end
-     
+    
 puts "What is your motive for performing this murder? Please choose: Revenge, Terrorism, Entertainment, WWorld Domination, Inheritance, "
 motive = gets.chomp
 violence = "we don't know yet"
 if motive = Revenge
   violence = 
 
-         # reasoning/motive
+         # reasoning/motive 
+         
+ # reasoning/motive
  # relation
  # urgency
 
   #weapon, place, time
   
   
-  "One #{time_of_day}, this marks your day.  This plan is designed to enable you to successfully complete the murder within the next urgency_amount. emerge from your home_apartment, wearing a clothes_
+  "One #{time_of_day}, this marks your day.  This plan is designed to enable you to successfully complete the murder within the next #{urgency_amount}. emerge from your home_apartment, wearing a clothes_
 
-
-#hello this is some more code! 
