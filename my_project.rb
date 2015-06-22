@@ -16,6 +16,12 @@ if amount_to_kill.to_i >= 50
          time_of_day = "one shadowy dawn when the sun and moon alike stare down as the only witnesses to your vicious attack.  As the crisp morning air settles and fresh dew adorning plants glistens, those around you slumber peacefully, unawares. The slight fog will mask your murder from the as you disappear into the new day."
      end
      
+puts "What is your motive for performing this murder? Please choose: Revenge, Terrorism, Entertainment, WWorld Domination, Inheritance, "
+motive = gets.chomp
+violence = "we don't know yet"
+if motive = Revenge
+  violence = 
+
          # reasoning/motive
  # relation
  # urgency
